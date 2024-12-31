@@ -1,2 +1,16 @@
+# Node.js dependencies
+node_modules/
 
-/.idea
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.idea/
+.vscode/
