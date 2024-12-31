@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+button {
+    margin-top: 10px;
+}
+.output {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+}

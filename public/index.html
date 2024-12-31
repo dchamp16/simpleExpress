@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FS Database API</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>FS Database API</h1>
+
+    <section>
+        <h2>Fetch All Records</h2>
+        <button onclick="fetchRecords()">Get All Records</button>
+        <div id="all-records" class="output"></div>
+    </section>
+
+    <section>
+        <h2>Add a New Record</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter name" />
+        <label for="email">Email:</label>
+        <input type="text" id="email" placeholder="Enter email" />
+        <button onclick="addRecord()">Add Record</button>
+        <div id="add-record-output" class="output"></div>
+    </section>
+
+    <section>
+        <h2>Fetch Record by ID</h2>
+        <label for="record-id">Record ID:</label>
+        <input type="text" id="record-id" placeholder="Enter record ID" />
+        <button onclick="fetchRecordById()">Get Record</button>
+        <div id="record-by-id" class="output"></div>
+    </section>
+</div>
+
+<!-- Include external JavaScript -->
+<script src="script.js"></script>
+</body>
+</html>
