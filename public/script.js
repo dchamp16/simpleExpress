@@ -1,4 +1,4 @@
-const baseUrl = 'http://localhost:3000/api/records'
+const baseUrl = '/api/records'
 
 // Fetch all records
 async function fetchRecords() {
